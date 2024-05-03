@@ -6,7 +6,7 @@ import fs from 'fs';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import path from 'path';
-import connectDB from './config/db.js';
+import connectDB from './db.js';
 import Student from './database.js'; // Assuming the model is defined in student.js
 import { fileURLToPath } from 'url'; // Import fileURLToPath function
 
